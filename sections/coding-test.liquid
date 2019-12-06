@@ -1,0 +1,25 @@
+<div id="title-section">
+    <div class="random-title">
+        <h1> {{ section.settings.title }} </h1>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Random Title",
+    "settings": [
+    {
+        "id" : "text-box-title",
+        "type" : "text",
+        "label" : "Heading",
+        "default" : "Random Title"
+    }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
